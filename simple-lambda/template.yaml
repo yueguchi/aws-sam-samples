@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Create Lambda function by using AWS SAM.
+Resources:
+  SamSampleLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: functions/lambda_function.lambda_handler
+      Runtime: python3.6
+      Role: arn:aws:iam::569113468865:role/lambda_dynamo
+      Timeout: 30
