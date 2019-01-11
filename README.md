@@ -8,3 +8,5 @@
 - complicated-lambda
   - モジュール利用、タイマー起動などのサンプル
 
+- with-dynamo
+  - dynamoとの連携sample
